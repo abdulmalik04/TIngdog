@@ -1,0 +1,183 @@
+
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+#title{
+    background-color:#ff4c68;
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 4% 15%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu'; font-weight: bold; font-size: 2.5rem;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-family: 'Ubuntu';
+    font-size: 1.5rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-text{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 4rem;
+
+
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(20deg);
+    right: 100px;
+    position: absolute;
+}
+
+.white-section{
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+.feature-title{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+}
+
+.feature-des{
+    font-family: 'Ubuntu';
+    color: grey;
+    font-size: 1rem;
+}
+
+
+.pricing-sec{
+    padding: 75px;
+    text-align: center;
+}
+
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.pricing-title{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+}
+
+.pricing-des{
+    font-family: 'Ubuntu';
+    color: grey;
+    font-size: 1rem;
+}
+
+.box{
+    background-color:;
+}
+.dog-breed{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+}
+
+.amount{
+ font-size: 2rem;
+}
+
+.testimonial-section{
+ background-color: #db4359;
+ text-align: center;
+ padding: 100px 100px;
+}
+
+.testimonial-title{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.testimonial-image{
+width: 100px;
+height: 100px;
+ border-radius: 100%;
+}
+
+.carousel-item{
+    padding: 0 15%;
+}
+
+.press-section{
+    background-color: #db4359;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.press-logo{
+    width: 200px;
+    margin: 20px 15px 20px
+}
+
+.download-sec{
+    background-color:#ff4c68;
+    padding-bottom: 25px;
+}
+
+.download-buttondwnios{
+    margin-left: 40%;
+    margin-right: 5px;
+
+}
+
+.download-buttondwnandriod{
+    margin-left: 5px;
+    margin-right: 40%;
+}
+
+.footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.communicate{
+    padding-bottom: 10px;
+
+}
+
+.copyright{
+ font-size: 1rem;
+}
+
+@media (max-width: 1035px) {
+
+#title{
+ text-align: center;
+}
+
+.title-image{
+    position: static;
+    transform: rotate(0);
+}
+}
